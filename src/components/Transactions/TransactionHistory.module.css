@@ -1,0 +1,19 @@
+.transaction {
+  margin-top: 50px;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: #645353; */
+  align-items: center;
+}
+.transactionHistory {
+  background-color: #000000;
+}
+.transactionHead {
+  background-color: #444343;
+}
+.transactionBody {
+  background-color: #836161;
+}

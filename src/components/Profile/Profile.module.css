@@ -1,0 +1,36 @@
+.profile {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  background-color: rgb(65, 63, 63);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.avatar {
+  border-radius: 50%;
+  background-color: rgb(128, 120, 120);
+  width: 200px;
+  margin-bottom: 10px;
+}
+.stats {
+  justify-content: space-between;
+  width: 300px;
+  display: flex;
+  gap: 20px;
+  background-color: #585858;
+}
+.statsItem {
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+}

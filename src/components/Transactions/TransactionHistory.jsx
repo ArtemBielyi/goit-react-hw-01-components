@@ -3,16 +3,16 @@ import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
 export const TransactionHistory = ({ items }) => {
   return (
-    <section className="transaction">
-      <table className="transaction-history">
-        <thead>
+    <section className={css.transaction}>
+      <table className={css.transactionHistory}>
+        <thead className={css.transactionHead}>
           <tr>
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className={css.transactionBody}>
           {items.map(({ id, type, amount, currency }) => {
             return (
               <tr key={id}>
